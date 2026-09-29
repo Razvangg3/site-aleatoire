@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Super Site Web</title>
+    <style>
+        /* --- STYLE DU SITE (CSS) --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* En-tête */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { margin-top: 10px; color: #ecf0f1; }
+
+        /* Conteneur principal */
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Sections */
+        .section { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        
+        h2 { color: #2c3e50; }
+
+        /* Bouton d'exemple */
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover { background-color: #2980b9; }
+
+        /* Pied de page */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- EN-TÊTE -->
+    <header>
+        <h1>Bienvenue sur mon site !</h1>
+        <p>Le tout premier site web créé par toi.</p>
+    </header>
+
+    <!-- CONTENU PRINCIPAL -->
+    <div class="container">
+        
+        <div class="section">
+            <h2>À propos de moi</h2>
+            <p>Ceci est un exemple de texte. Tu peux modifier ce bloc pour y mettre ta propre biographie, ton nom ou ce que tu aimes.</p>
+        </div>
+
+        <div class="section">
+            <h2>Mes Services / Mon Travail</h2>
+            <ul>
+                <li>Servique numéro 1 : Je sais faire des choses.</li>
+                <li>Servique numéro 2 : Je suis très rapide.</li>
+                <li>Servique numéro 3 : Je suis passionné !</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contactez-moi</h2>
+            <p>N'hésitez pas à me contacter pour discuter de vos projets.</p>
+            <!-- Lien vers une adresse mail (ex) -->
+            <a href="mailto:tonemail@exemple.com" class="btn">M'envoyer un email</a>
+        </div>
+
+    </div>
+
+    <!-- PIED DE PAGE -->
+    <footer>
+        <p>&copy; 2024 - Mon Super Site Web. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
